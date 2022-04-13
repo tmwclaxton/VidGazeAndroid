@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <item android:id="@+id/nav_categories"
+        android:icon="@drawable/categories"
+        android:title="Categories"/>
+
+    <item android:id="@+id/nav_subscriptions"
+        android:icon="@drawable/subscriptions"
+        android:title="Subscriptions"/>
+
+    <item android:id="@+id/nav_library"
+        android:icon="@drawable/library"
+        android:title="Library"/>
+
+</menu>
