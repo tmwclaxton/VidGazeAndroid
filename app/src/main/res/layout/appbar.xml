@@ -23,30 +23,33 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="35dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="38dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/search" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="37dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="40dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
+        android:clickable="false"
+        android:onClick="openSettings"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/profile" />
+        app:srcCompat="@drawable/profile"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="32dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_width="34dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
         app:layout_constraintEnd_toStartOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bell" />
